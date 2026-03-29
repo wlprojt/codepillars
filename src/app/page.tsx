@@ -1,14 +1,20 @@
+"use client";
+
 import Image from "next/image";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Home() {
+
   return (
-    <div>
-      <Image
-        src="/logo.png"
-        alt="Next.js logo"
-        width={2000}
-        height={2000}
-      />
+    <div
+      style={{
+        backgroundImage: "url('/bg.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+      }}
+    >
+      
     </div>
   );
 }
