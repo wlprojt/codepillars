@@ -1,6 +1,7 @@
 "use client";
 
 import Homeone from "@/components/Homeone";
+import Homethree from "@/components/Homethree";
 import Hometwo from "@/components/Hometwo";
 
 export default function Home() {
@@ -12,11 +13,25 @@ export default function Home() {
         <div className="relative z-10">
           <Homeone />
           <Hometwo />
+          <div className="flex items-center">
+              <div className="flex-grow border-t border-white/25" />
+              <span className="mx-2 text-gray-900 text-sm">
+                <div className="text-center">
+                  <h1 className="font-bold text-2xl lg:text-4xl">Recent Projects</h1>
+                  <p className="lg:text-lg text-gray-700">Our Latest Work</p>
+                </div>
+              </span>
+              <div className="flex-grow border-t border-white/25" />
+            </div>
+          <Homethree />
         </div>
       </div>
 
       {/* Bottom Section (bg2) */}
       <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg3) */}
+      <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
 
     </div>
   );
