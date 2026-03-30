@@ -1,20 +1,21 @@
 "use client";
 
-import Image from "next/image";
-import { motion, useScroll, useTransform } from "framer-motion";
+import Homeone from "@/components/Homeone";
 
 export default function Home() {
-
   return (
-    <div
-      style={{
-        backgroundImage: "url('/bg.png')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "100vh",
-      }}
-    >
-      
+    <div className="relative w-full">
+
+      {/* Top Section (bg1) */}
+      <div className="h-screen bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat">
+        <div className="relative z-10">
+          <Homeone />
+        </div>
+      </div>
+
+      {/* Bottom Section (bg2) */}
+      <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+
     </div>
   );
 }
