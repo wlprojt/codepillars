@@ -43,7 +43,7 @@ export default function Navbar() {
                 />
               </motion.div>
               <motion.span className="text-[#101a32] font-semibold text-2xl">
-                Codepillars<span className="text-[#3a82e8] text-lg">.net</span>
+                CodePillars<span className="text-[#3a82e8] text-lg">.net</span>
               </motion.span>
             </Link>
           </motion.div>

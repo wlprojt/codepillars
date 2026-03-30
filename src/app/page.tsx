@@ -1,8 +1,14 @@
-"use client";
+
 
 import Homeone from "@/components/Homeone";
 import Homethree from "@/components/Homethree";
 import Hometwo from "@/components/Hometwo";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CodePillars | Home",
+  description: "Website, Android, and iOS app developer portfolio",
+};
 
 export default function Home() {
   return (
