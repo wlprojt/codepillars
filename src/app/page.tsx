@@ -24,6 +24,16 @@ export default function Home() {
               <div className="flex-grow border-t border-white/25" />
             </div>
           <Homethree />
+          <div className="flex items-center">
+              <div className="flex-grow border-t border-white/25" />
+              <span className="mx-2 text-gray-900 text-sm">
+                <div className="text-center">
+                  <h1 className="font-bold text-2xl lg:text-4xl">Why Choose Us</h1>
+                  <p className="lg:text-lg text-gray-700">Crafting Excellence in Every Step</p>
+                </div>
+              </span>
+              <div className="flex-grow border-t border-white/25" />
+            </div>
         </div>
       </div>
 
@@ -31,6 +41,12 @@ export default function Home() {
       <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg3) */}
+      <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg4) */}
+      <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg5) */}
       <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
 
     </div>
