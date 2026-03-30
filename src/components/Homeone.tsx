@@ -18,11 +18,11 @@ export default function Hero() {
         transition={{ duration: 0.7 }}
         className="flex-1 text-center lg:text-left"
       >
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black mb-2 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#101a32] mb-2 leading-tight">
           WE BUILD PILLARS <br />FOR YOUR DIGITAL <br />SUCCESS.
         </h1>
 
-        <p className="text-black text-md sm:text-xl max-w-xl mx-auto lg:mx-0 mb-4">
+        <p className="text-gray-700 text-md sm:text-xl max-w-xl mx-auto lg:mx-0 mb-4">
           App and Web Development that Scales. <br /> Turn Your Idea Into a Robust Platform.
         </p>
 

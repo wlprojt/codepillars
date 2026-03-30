@@ -1,6 +1,7 @@
 "use client";
 
 import Homeone from "@/components/Homeone";
+import Hometwo from "@/components/Hometwo";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="h-screen bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat">
         <div className="relative z-10">
           <Homeone />
+          <Hometwo />
         </div>
       </div>
 

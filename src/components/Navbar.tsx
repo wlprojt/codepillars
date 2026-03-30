@@ -42,8 +42,8 @@ export default function Navbar() {
                   className="h-7 w-auto object-contain"
                 />
               </motion.div>
-              <motion.span className="text-black font-semibold text-2xl">
-                Codepillars.net
+              <motion.span className="text-[#101a32] font-semibold text-2xl">
+                Codepillars<span className="text-[#3a82e8] text-lg">.net</span>
               </motion.span>
             </Link>
           </motion.div>
@@ -56,8 +56,8 @@ export default function Navbar() {
                 href={href}
                 className={`transition duration-300 transform ${
                   pathname === href
-                    ? 'text-blue-500 scale-105'
-                    : 'text-black hover:text-blue-500 hover:-translate-y-0.5'
+                    ? 'text-[#3a82e8] scale-105'
+                    : 'text-[#101a32] hover:text-[#3a82e8] hover:-translate-y-0.5'
                 }`}
               >
                 {label}
@@ -73,7 +73,7 @@ export default function Navbar() {
             aria-label="Toggle Menu"
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
-            className="md:hidden text-white focus:outline-none"
+            className="md:hidden text-[#3a82e8] focus:outline-none"
           >
             {isOpen ? <X size={26} /> : <Menu size={26} />}
           </button>
@@ -99,8 +99,8 @@ export default function Navbar() {
                   onClick={() => setIsOpen(false)}
                   className={`transition ${
                     pathname === href
-                      ? 'text-blue-400'
-                      : 'text-white hover:text-blue-400'
+                      ? 'text-[#3a82e8]'
+                      : 'text-[#101a32] hover:text-[#3a82e8]'
                   }`}
                 >
                   {label}
