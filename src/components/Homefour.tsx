@@ -3,6 +3,7 @@
 import { BarChart3, Lock, Sparkles, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 import FeatureItem from "./FeatureItem";
+import Link from "next/link";
 
 
 const Homefour = () => {
@@ -36,7 +37,8 @@ const Homefour = () => {
         transition={{ duration: 0.7 }}
         className="flex-1 text-center lg:text-left"
       >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"> */}
+          <Link href="/contact" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {features.map((item, i) => (
           <FeatureItem
             key={i}
@@ -44,7 +46,8 @@ const Homefour = () => {
             title={item.title}
           />
         ))}
-      </div>  
+        </Link>
+      {/* </div>   */}
       </motion.div>
     
     </section>

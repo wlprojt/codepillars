@@ -4,6 +4,7 @@ import { Monitor, Pencil, Server, Smartphone } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
+import Link from "next/link";
 
 
 const Homethree = () => {
@@ -18,7 +19,8 @@ const Homethree = () => {
         transition={{ duration: 0.7 }}
         className="flex-1 text-center lg:text-left"
       >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> */}
+          <Link href="/projects" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <ProjectCard
             image="/amusic.png"
             title="Music Player Android App"
@@ -34,7 +36,8 @@ const Homethree = () => {
             title="Ecommerce Website"
             description="A sleek e-commerce website built with React and Node.js. It features a modern design, smooth user experience, and supports various payment methods. The site allows users to browse products, add items to their cart, and complete purchases seamlessly."
           />
-      </div>  
+          </Link>
+      {/* </div>   */}
       </motion.div>
     
     </section>

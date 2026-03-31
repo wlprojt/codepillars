@@ -3,6 +3,7 @@
 import { Monitor, Pencil, Server, Smartphone } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 
 const Hometwo = () => {
@@ -40,7 +41,8 @@ const Hometwo = () => {
         transition={{ duration: 0.7 }}
         className="flex-1 text-center lg:text-left"
       >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"> */}
+        <Link href="/about" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {services.map((item, i) => (
           <ServiceCard
             key={i}
@@ -49,7 +51,8 @@ const Hometwo = () => {
             description={item.desc}
           />
         ))}
-      </div>  
+        </Link>
+      {/* </div>   */}
       </motion.div>
     
     </section>
