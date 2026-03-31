@@ -73,7 +73,7 @@ export default function Home() {
       <div className="h-screen sm:hidden bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg7) */}
-      <div className="h-50 sm:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+      <div className="h-screen sm:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
 
     </div>
   );
