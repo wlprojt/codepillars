@@ -1,5 +1,7 @@
 
 
+import Homefive from "@/components/Homefive";
+import Homefour from "@/components/Homefour";
 import Homeone from "@/components/Homeone";
 import Homethree from "@/components/Homethree";
 import Hometwo from "@/components/Hometwo";
@@ -40,6 +42,18 @@ export default function Home() {
               </span>
               <div className="flex-grow border-t border-white/25" />
             </div>
+          <Homefour />
+          <div className="flex items-center">
+              <div className="flex-grow border-t border-white/25" />
+              <span className="mx-2 text-gray-900 text-sm">
+                <div className="text-center">
+                  <h1 className="font-bold text-2xl lg:text-4xl">Loved by users worldwide</h1>
+                  <p className="lg:text-lg text-gray-700">See what users are saying about wish-light</p>
+                </div>
+              </span>
+              <div className="flex-grow border-t border-white/25" />
+            </div>
+          <Homefive />
         </div>
       </div>
 
@@ -53,6 +67,12 @@ export default function Home() {
       <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg5) */}
+      <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg6) */}
+      <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg7) */}
       <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
 
     </div>
