@@ -35,10 +35,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${roboto.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-[#d6e0ec]">
         <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );

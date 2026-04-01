@@ -1,5 +1,6 @@
 
 
+import Footer from "@/components/Footer";
 import Homefive from "@/components/Homefive";
 import Homefour from "@/components/Homefour";
 import Homeone from "@/components/Homeone";
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-[#d6e0ec]">
 
       {/* Top Section (bg1) */}
       <div className="h-screen bg-[url('/bg.png')] bg-cover bg-center bg-no-repeat">
@@ -54,6 +55,7 @@ export default function Home() {
               <div className="flex-grow border-t border-white/25" />
             </div>
           <Homefive />
+          <Footer />
         </div>
       </div>
 
@@ -67,13 +69,13 @@ export default function Home() {
       <div className="h-screen lg:h-150 bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg5) */}
-      <div className="h-screen sm:h-150 md:h-200 lg:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+      {/* <div className="h-screen sm:h-150 md:h-200 lg:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" /> */}
 
       {/* Bottom Section (bg6) */}
-      <div className="h-screen sm:hidden bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+      {/* <div className="h-screen sm:hidden bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" /> */}
 
       {/* Bottom Section (bg7) */}
-      <div className="h-screen sm:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+      {/* <div className="h-screen sm:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat " /> */}
 
     </div>
   );

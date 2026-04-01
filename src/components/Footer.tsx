@@ -25,7 +25,7 @@ export default function Footer() {
       initial={{ opacity: 0, y: 30 }}
       animate={showFooter ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className="relative py-10 px-6 md:px-20 z-50 bg-[#d6e0ec] backdrop-blur-md border-b border-white/20"
+      className="relative py-10 px-6 md:px-20 z-50 bg-[#d6e0ec] backdrop-blur-md border-t border-white/30"
     >
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 via-transparent pointer-events-none" />
