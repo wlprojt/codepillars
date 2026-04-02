@@ -46,8 +46,10 @@ export default function About() {
       <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg6) */}
-      <div className="md:h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+      <div className="lg:h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
+      {/* Bottom Section (bg7) */}
+      <div className="lg:h-40 bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
       
     </div>
   );
