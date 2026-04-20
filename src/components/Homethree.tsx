@@ -22,9 +22,9 @@ const Homethree = () => {
           {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> */}
           <Link href="/projects" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <ProjectCard
-            image="/amusic.png"
-            title="Music Player Android App"
-            description="A sleek music player app for Android, built with Jetpack Compose and Android Studio. It features a user-friendly interface, smooth navigation, and supports various audio formats. The app allows users to create playlists, shuffle songs, and enjoy their music on the go."
+            image="/aremovebg.png"
+            title="AI Background Remover App"
+            description="An AI-powered background remover app built with Kotlin and Jetpack Compose. It allows users to easily remove backgrounds from images using advanced machine learning algorithms. The app provides a user-friendly interface and supports various image formats for seamless editing."
           />
           <ProjectCard
             image="/ichatbot.png"

@@ -22,7 +22,7 @@ const Abouttwo = () => {
       >
           <div className="grid grid-cols-1 gap-6 md:gap-10">
           <BServiceCard
-            image="/abanner.png"
+            image="/rbanner.png"
             title="Modern Android App Development"
             description="We specialize in building modern, high-performance Android applications using Kotlin and Jetpack Compose, Google’s latest UI toolkit. Our development approach focuses on creating clean, scalable, and maintainable codebases that ensure long-term reliability and performance. From intuitive user interfaces to advanced features, we design apps that deliver a seamless and engaging user experience across all Android devices. With Jetpack Compose, we craft dynamic and responsive UI components with smooth animations and minimal boilerplate code. We also follow best practices like MVVM architecture, state management, and efficient API integration to ensure your app is fast, secure, and production-ready. Whether it’s a startup idea or an enterprise solution, we turn your vision into a powerful Android application."
           />

@@ -65,12 +65,12 @@ export default function AboutPage() {
             playOnce={false}
           >
             <Link
-              href="/payment"
+              href="/projects"
             >
           <Button
           className="px-6 py-6 w-full bg-[#3a82e8] hover:bg-[#3a82e8] hover:mb-2 text-white font-semibold rounded-1 shadow-lg transition-all duration-300"
           >
-               Make a Payment 💳
+               View My Projects 💡
           </Button>
           </Link>
           </GlareHover>

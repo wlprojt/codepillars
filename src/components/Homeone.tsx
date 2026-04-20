@@ -42,7 +42,7 @@ export default function Hero() {
           <Button
           className="px-6 py-6 w-full bg-[#3a82e8] hover:bg-[#3a82e8] text-white font-bold rounded-1 transition-all duration-300"
           >
-              Start Your Project
+              Start Your Project 🎯
           </Button>
           </Link>
           </GlareHover>
