@@ -1,5 +1,7 @@
 
 import Contactone from "@/components/Contactone";
+import Contacttwo from "@/components/Contacttwo";
+import Footer from "@/components/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -25,9 +27,13 @@ export default function Contact() {
               </span>
               <div className="flex-grow border-t border-white/25" />
             </div>
-            {/* <Contacttwo /> */}
+            <Contacttwo />
+            <Footer />
         </div>
         </div>
+
+        {/* Bottom Section (bg2) */}
+      <div className="lg:h-100 bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
     </div>
   );
