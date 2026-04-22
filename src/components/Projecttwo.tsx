@@ -7,6 +7,7 @@ import ProjectCard from "./ProjectCard";
 import Link from "next/link";
 import BServiceCard from "./BServiceCard";
 import BProjectCard from "./BProjectCard";
+import OProjectCard from "./OProjectCard";
 
 
 const Projecttwo = () => {
@@ -44,6 +45,7 @@ const Projecttwo = () => {
             description="This project focuses on building a powerful AI-powered image background remover web application designed to deliver fast, accurate, and high-quality results directly on the web. The application was developed using Next.js and TypeScript, ensuring a modern, scalable, and highly responsive user interface. The core functionality of the app leverages advanced AI-based image segmentation technology to automatically detect and remove backgrounds from images with precision. Users can simply upload or capture an image, and within seconds, the application processes it to isolate the main subject while removing unwanted backgrounds seamlessly. The application also supports zooming, panning, undo/redo functionality, and allows users to add custom backgrounds after removal. This makes it ideal for creating professional-looking images for social media, e-commerce, or personal use."
             ylink="https://youtu.be/VvFTsWFHCAE"
             glink="https://github.com/wlprojt/WRemovebg"
+            // olink="https://removebg.codepillars.net/"
           />
 
       </div>  

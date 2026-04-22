@@ -4,6 +4,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Script from "next/dist/client/script";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -37,6 +38,10 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-[#d6e0ec]">
         <Navbar />
+        <Script
+          src="https://accounts.google.com/gsi/client"
+          strategy="afterInteractive"
+        />
         {children}
       </body>
     </html>

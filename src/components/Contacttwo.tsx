@@ -1,13 +1,11 @@
 'use client'
 
-import { BarChart3, Lock, Signal, Sparkles, Zap } from "lucide-react";
+
 import { motion } from "framer-motion";
-import FeatureItem from "./FeatureItem";
 import Link from "next/link";
 import Contactitem from "./Contactitem";
 import { BsSignal, BsTelegram, BsWhatsapp } from "react-icons/bs";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
-import { TfiEmail } from "react-icons/tfi";
 import { FaTelegram, FaTelegramPlane } from "react-icons/fa";
 import { SiSignal } from "react-icons/si";
 
