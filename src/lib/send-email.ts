@@ -11,7 +11,7 @@ const resend = new Resend(RESEND_API_KEY);
 export async function sendOTPEmail(email: string, otp: string) {
   try {
     await resend.emails.send({
-      from: "Auth <onboarding@resend.dev>", // ✅ verified sender
+      from: "CodePillars <hello@codepillars.net>", // ✅ verified sender
       to: email,
       subject: "Your verification code",
       html: `
