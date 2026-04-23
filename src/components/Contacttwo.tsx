@@ -19,7 +19,7 @@ const Contacttwo = () => {
       sicon: <SiSignal className="w-8 h-8 text-[#142342]" />,
       eicon: <MdOutlineEmail className="w-8 h-8 text-[#142342]" />,
       nimber: "+91 7970731851",
-      email: "rickyvishwas11@gmail.com"
+      email: "hello@codepillars.net"
     }
   ];
 
@@ -33,8 +33,8 @@ const Contacttwo = () => {
         transition={{ duration: 0.7 }}
         className="flex-1 text-center lg:text-left"
       >
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"> */}
-          <Link href="/contact" className="grid grid-cols-1 gap-6">
+          <div className="grid grid-cols-1 gap-6">
+          {/* <Link href="/contact" className="grid grid-cols-1 gap-6"> */}
         {features.map((item, i) => (
           <Contactitem
             key={i}
@@ -46,8 +46,8 @@ const Contacttwo = () => {
             etitle={item.email}
           />
         ))}
-        </Link>
-      {/* </div>   */}
+        {/* </Link> */}
+      </div>  
       </motion.div>
     
     </section>
