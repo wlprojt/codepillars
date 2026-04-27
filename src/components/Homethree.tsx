@@ -27,13 +27,13 @@ const Homethree = () => {
             description="An AI-powered background remover app built with Kotlin and Jetpack Compose. It allows users to easily remove backgrounds from images using advanced machine learning algorithms. The app provides a user-friendly interface and supports various image formats for seamless editing."
           />
           <ProjectCard
-            image="/ichatbot.png"
-            title="Chatbot iOS App"
-            description="A conversational chatbot for iOS, built with Swift and Xcode. It features a natural language processing engine, smooth conversation flow, and supports various intents. The app allows users to interact with the chatbot and get helpful responses."
+            image="/sitxvoice.png"
+            title="AI Text-to-Speech iOS App"
+            description="An AI-powered text-to-speech iOS app developed using Swift and SwiftUI. The app converts written text into natural-sounding speech using advanced machine learning algorithms. It offers a user-friendly interface and supports multiple languages and voice options for a personalized experience."
           />
           <ProjectCard
             image="/wecom.png"
-            title="Ecommerce Website"
+            title="Ecommerce Web App"
             description="A sleek e-commerce website built with React and Node.js. It features a modern design, smooth user experience, and supports various payment methods. The site allows users to browse products, add items to their cart, and complete purchases seamlessly."
           />
           </Link>

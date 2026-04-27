@@ -27,7 +27,7 @@ const Abouttwo = () => {
             description="We specialize in building modern, high-performance Android applications using Kotlin and Jetpack Compose, Google’s latest UI toolkit. Our development approach focuses on creating clean, scalable, and maintainable codebases that ensure long-term reliability and performance. From intuitive user interfaces to advanced features, we design apps that deliver a seamless and engaging user experience across all Android devices. With Jetpack Compose, we craft dynamic and responsive UI components with smooth animations and minimal boilerplate code. We also follow best practices like MVVM architecture, state management, and efficient API integration to ensure your app is fast, secure, and production-ready. Whether it’s a startup idea or an enterprise solution, we turn your vision into a powerful Android application."
           />
           <BServiceCard
-            image="/ibanner.png"
+            image="/iosbnr.png"
             title="iOS App Development"
             description="Our iOS development services focus on delivering premium-quality applications using Swift and Xcode, optimized for the Apple ecosystem. We build apps that are not only visually stunning but also highly functional and reliable. We emphasize clean UI/UX design, smooth navigation, and high performance to meet Apple’s strict standards. From iPhone to iPad, our apps are fully responsive and provide a consistent experience across all screen sizes. With a strong focus on performance, security, and scalability, we implement modern development practices and integrate powerful features such as real-time data, APIs, and animations. Our goal is to create iOS apps that users love and businesses can rely on."
           />

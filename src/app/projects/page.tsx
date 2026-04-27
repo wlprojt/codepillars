@@ -1,4 +1,5 @@
 
+import Footer from "@/components/Footer";
 import Projectone from "@/components/Projectone";
 import Projecttwo from "@/components/Projecttwo";
 import { Metadata } from "next";
@@ -27,6 +28,7 @@ export default function Projects() {
               <div className="flex-grow border-t border-white/25" />
             </div>
             <Projecttwo />
+            <Footer />
         </div>
       </div>
 
@@ -43,10 +45,19 @@ export default function Projects() {
       <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg6) */}
-      <div className="lg:h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+      <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg7) */}
-      <div className="lg:h-40 bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+      <div className="h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg8) */}
+      <div className="h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg9) */}
+      <div className="lg:h-screen bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
+
+      {/* Bottom Section (bg10) */}
+      <div className="lg:h-screen bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
     </div>
   );

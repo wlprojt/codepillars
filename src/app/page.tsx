@@ -69,10 +69,10 @@ export default function Home() {
       <div className="h-screen lg:h-150 bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg5) */}
-      {/* <div className="h-screen sm:h-150 md:h-200 lg:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" /> */}
+      <div className="h-screen sm:h-150 md:h-200 lg:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg6) */}
-      {/* <div className="h-screen sm:hidden bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" /> */}
+      <div className="h-screen sm:hidden bg-[url('/fbg2.png')] bg-cover bg-center bg-no-repeat" />
 
       {/* Bottom Section (bg7) */}
       {/* <div className="h-screen sm:hidden bg-[url('/bg2.png')] bg-cover bg-center bg-no-repeat " /> */}
