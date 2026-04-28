@@ -14,7 +14,7 @@ export default function WebCard() {
       <div className="h-full w-full rounded-2xl bg-white/20 backdrop-blur-md p-6 shadow-lg border border-white/30 transition-all duration-300 group-hover:scale-105">
 
         {/* Title */}
-        <h3 className="text-lg font-bold text-gray-900 mb-8">
+        <h3 className="text-lg font-bold text-start text-gray-900 mb-8">
           Website Project
         </h3>
 
@@ -31,27 +31,27 @@ export default function WebCard() {
         </button>
 
         {/* Features */}
-        <p className="text-sm font-bold text-gray-900 leading-relaxed">
+        <p className="text-sm font-bold text-start text-gray-900 leading-relaxed">
           <span className="font-bold text-5xl">. </span>
           Morden UI/UX Design
         </p>
 
-        <p className="text-sm font-bold text-gray-900 leading-relaxed">
+        <p className="text-sm font-bold text-start text-gray-900 leading-relaxed">
           <span className="font-bold text-5xl">. </span>
           jWT Authentication
         </p>
 
-        <p className="text-sm font-bold text-gray-900 leading-relaxed">
+        <p className="text-sm font-bold text-start text-gray-900 leading-relaxed">
           <span className="font-bold text-5xl">. </span>
           API Integration
         </p>
 
-        <p className="text-sm font-bold text-gray-900 leading-relaxed">
+        <p className="text-sm font-bold text-start text-gray-900 leading-relaxed">
           <span className="font-bold text-5xl">. </span>
           Firebase/Mongodb
         </p>
 
-        <p className="text-sm font-bold text-gray-900 leading-relaxed">
+        <p className="text-sm font-bold text-start text-gray-900 leading-relaxed">
           <span className="font-bold text-5xl">. </span>
           Payment Gateway
         </p>

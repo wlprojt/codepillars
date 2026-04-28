@@ -112,7 +112,7 @@ export default function DashboardPage() {
                   <div className="flex flex-col">
                     <div className="flex items-center px-4">
                   {user.name && (
-                    <h2 className="mt-4 text-xl font-bold text-[#142342]">
+                    <h2 className="mt-4 text-xl font-bold text-[#142342] line-clamp-1">
                       {user.name}
                     </h2>
                   )}
@@ -125,7 +125,7 @@ export default function DashboardPage() {
                   </button>
                   </div>
 
-                  <span className="mt-2 px-4 font-bold text-lg text-[#142342] break-all">
+                  <span className="mt-2 px-4 font-bold text-lg text-[#142342] line-clamp-1 break-all">
                     {user.email}
                   </span>
 
