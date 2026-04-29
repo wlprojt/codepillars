@@ -24,7 +24,6 @@ export default function AndroidCard() {
         </h3>
 
         <button
-            onClick={() => router.push("/projects")}
             className="w-full h-12 mt-4 rounded-[32px] bg-gradient-to-br from-[#d6f0ee] via-[#bed3ee] to-[#c4c4f4] backdrop-blur-md border border-white/25 text-[#142342] font-bold text-lg hover:scale-[1.02] transition-transform disabled:opacity-50"
         >
             Create Project

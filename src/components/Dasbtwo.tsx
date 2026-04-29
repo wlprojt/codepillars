@@ -23,7 +23,7 @@ const Dasbtwo = () => {
         className="flex-1 text-center lg:text-left"
       >
           {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> */}
-          <Link href="/projects" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <Link href="/create-project" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <AndroidCard />
           <IosCard />
           <WebCard />

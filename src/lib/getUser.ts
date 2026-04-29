@@ -11,6 +11,7 @@ export type CurrentUser = {
   provider?: string;
   image?: string | null;
   emailVerified?: boolean;
+  role?: "user" | "admin";
 };
 
 export async function getUser(): Promise<CurrentUser | null> {
@@ -22,17 +23,18 @@ export async function getUser(): Promise<CurrentUser | null> {
   if (!token) return null;
 
   let decoded: any;
+
   try {
     decoded = verifyJwt(token) as any;
   } catch {
     return null;
   }
 
-  // ✅ works for login/google/otp tokens
   const id = decoded.id || decoded.userId;
   if (!id) return null;
 
   await connectDB();
+
   const user = await User.findById(id);
   if (!user) return null;
 
@@ -43,5 +45,6 @@ export async function getUser(): Promise<CurrentUser | null> {
     provider: user.provider,
     image: user.image ?? null,
     emailVerified: user.emailVerified,
+    role: user.role ?? "user",
   };
 }

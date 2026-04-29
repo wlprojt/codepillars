@@ -14,7 +14,6 @@ const UserSchema = new mongoose.Schema(
       trim: true,
     },
 
-    // 🔐 Password (local auth)
     passwordHash: { type: String },
 
     provider: {
@@ -25,37 +24,26 @@ const UserSchema = new mongoose.Schema(
 
     image: { type: String },
 
-    // 📧 Email verification
+    role: {
+      type: String,
+      enum: ["user", "admin"],
+      default: "user",
+    },
+
     emailVerified: {
       type: Boolean,
       default: false,
     },
 
-    emailOTP: {
-      type: String,
-    },
+    emailOTP: String,
+    emailOTPExpires: Date,
 
-    emailOTPExpires: {
-      type: Date,
-    },
-
-    resetPasswordToken: {
-      type: String,
-    },
-
-    resetPasswordExpires: {
-      type: Date,
-    },
+    resetPasswordToken: String,
+    resetPasswordExpires: Date,
   },
   { timestamps: true }
 );
 
-// 🔐 Enforce uniqueness at DB level
 UserSchema.index({ email: 1 }, { unique: true });
 
-export default mongoose.models.User ||
-  mongoose.model("User", UserSchema);
-
-
-
-  
+export default mongoose.models.User || mongoose.model("User", UserSchema);
