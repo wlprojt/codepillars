@@ -7,6 +7,7 @@ import { useMemo } from "react";
 
 export default function CreateProject() {
   const countries = useMemo(() => countryList().getData(), []);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (
   e: React.ChangeEvent<
@@ -31,6 +32,7 @@ export default function CreateProject() {
     e.preventDefault();
 
     try {
+      setLoading(true);
       const res = await fetch("/api/projects/create", {
         method: "POST",
         headers: {
@@ -47,6 +49,7 @@ export default function CreateProject() {
       }
 
       alert("Project submitted successfully!");
+      window.location.href = "/my-projects";
 
       setForm({
         projectDetails: "",
@@ -55,9 +58,11 @@ export default function CreateProject() {
         state: "",
         city: "",
       });
+      setLoading(false);
     } catch (error) {
       console.error(error);
       alert("Something went wrong");
+      setLoading(false);
     }
   };
 
@@ -147,9 +152,10 @@ export default function CreateProject() {
 
           <button
             type="submit"
+            disabled={loading}
             className="w-full h-14 rounded-[32px] bg-gradient-to-br from-[#d6f0ee] via-[#bed3ee] to-[#c4c4f4] border border-white/30 text-[#142342] font-bold text-lg hover:scale-[1.02] transition-transform"
           >
-            Submit Project
+            {loading ? "Processing..." : "Submit Project"}
           </button>
         </form>
       </div>
