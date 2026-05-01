@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import { sendGTMEvent } from '@next/third-parties/google'
 
 declare global {
   interface Window {
@@ -177,7 +178,7 @@ export default function PaymentPage() {
           disabled={loading}
           className="mt-6 w-full h-14 rounded-[32px] bg-gradient-to-br from-[#d6f0ee] via-[#bed3ee] to-[#c4c4f4] text-[#142342] text-lg font-bold hover:scale-[1.02] transition disabled:opacity-50"
         >
-          {loading ? "Processing..." : "Pay Now"}
+          sendGTMEvent({loading ? "Processing..." : "Pay Now"})
         </button>
 
         <p className="text-gray-700 text-center mt-4 text-sm">
