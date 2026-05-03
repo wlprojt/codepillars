@@ -45,6 +45,7 @@ export default function CreateProject() {
 
       if (!res.ok) {
         alert(data.error || "Failed to save project");
+        window.location.href = "/dashboard";
         return;
       }
 
@@ -62,6 +63,7 @@ export default function CreateProject() {
     } catch (error) {
       console.error(error);
       alert("Something went wrong");
+      window.location.href = "/dashboard";
       setLoading(false);
     }
   };
