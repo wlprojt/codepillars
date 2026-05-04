@@ -37,7 +37,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${roboto.className} h-full antialiased`}
     >
-      <GoogleTagManager gtmId="AW-11219169717" />
+      <GoogleTagManager gtmId="GTM-PF8F34S2" />
       <body className="min-h-full flex flex-col bg-[#d6e0ec]">
         <Navbar />
         <Script
