@@ -4,7 +4,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Script from "next/dist/client/script";
+import Script from "next/script";
 import { GoogleTagManager } from '@next/third-parties/google'
 
 const roboto = Roboto({
@@ -37,8 +37,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${roboto.className} h-full antialiased`}
     >
-      <GoogleTagManager gtmId="GTM-PF8F34S2" />
+      
       <body className="min-h-full flex flex-col bg-[#d6e0ec]">
+        <GoogleTagManager gtmId="GTM-PF8F34S2" />
         <Navbar />
         <Script
           src="https://accounts.google.com/gsi/client"
