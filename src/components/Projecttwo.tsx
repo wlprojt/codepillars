@@ -23,12 +23,13 @@ const Projecttwo = () => {
         className="flex-1 text-center lg:text-left"
       >
           <div className="grid grid-cols-1 gap-6 md:gap-10">
-          <BProjectCard
+          <OProjectCard
             image="/fimage2.png"
             title="AI Remove Image Background Android App Using Kotlin and Jetpack Compose"
             description="This project focuses on building a powerful AI-powered image background remover Android application designed to deliver fast, accurate, and high-quality results directly on mobile devices. The application was developed using Kotlin and Jetpack Compose, ensuring a modern, scalable, and highly responsive user interface. The core functionality of the app leverages advanced AI-based image segmentation technology to automatically detect and remove backgrounds from images with precision. Users can simply upload or capture an image, and within seconds, the application processes it to isolate the main subject while removing unwanted backgrounds seamlessly. The application also supports zooming, panning, undo/redo functionality, and allows users to add custom backgrounds after removal. This makes it ideal for creating professional-looking images for social media, e-commerce, or personal use."
             ylink="https://youtu.be/o7WO75s8fVk"
             glink="https://github.com/wlprojt/ARemovebg"
+            olink="https://play.google.com/store/apps/details?id=com.codepillars.removebg"
           />
 
           <BProjectCard
@@ -39,13 +40,13 @@ const Projecttwo = () => {
             glink="https://github.com/wlprojt/iRemovebg"
           />
           
-          <BProjectCard
+          <OProjectCard
             image="/fimage8.png"
             title="AI Remove Image Background Web App Using Next.js and TypeScript"
             description="This project focuses on building a powerful AI-powered image background remover web application designed to deliver fast, accurate, and high-quality results directly on the web. The application was developed using Next.js and TypeScript, ensuring a modern, scalable, and highly responsive user interface. The core functionality of the app leverages advanced AI-based image segmentation technology to automatically detect and remove backgrounds from images with precision. Users can simply upload or capture an image, and within seconds, the application processes it to isolate the main subject while removing unwanted backgrounds seamlessly. The application also supports zooming, panning, undo/redo functionality, and allows users to add custom backgrounds after removal. This makes it ideal for creating professional-looking images for social media, e-commerce, or personal use."
             ylink="https://youtu.be/VvFTsWFHCAE"
             glink="https://github.com/wlprojt/WRemovebg"
-            // olink="https://removebg.codepillars.net/"
+            olink="https://removebg.codepillars.net/"
           />
 
           <BProjectCard
@@ -88,12 +89,13 @@ const Projecttwo = () => {
             glink="https://github.com/wlprojt/iTxVoice"
           />
 
-          <BProjectCard
+          <OProjectCard
             image="/wtxvoice.png"
             title="AI Text-to-Speech web App Using Next.js and TypeScript"
             description="This project focuses on building a powerful AI-powered text-to-speech web application designed to deliver natural-sounding speech synthesis and recognition directly on devices. The application was developed using Next.js and TypeScript, ensuring a modern, scalable, and highly responsive user interface. The core functionality of the app leverages advanced AI-based speech synthesis and recognition technology to automatically convert text into lifelike speech with precision. Users can simply input text, and within seconds, the application processes it to generate high-quality audio output. The application also supports various voice options, speed controls, and allows users to save synthesized audio for later use. This makes it ideal for creating accessible content for social media, e-commerce, or personal use."
             ylink="https://youtu.be/6dl3nzJiC6g"
             glink="https://github.com/wlprojt/WTxVoice"
+            olink="https://txvoice.codepillars.net/"
           />
 
       </div>  
